@@ -52,7 +52,7 @@ if(isset($_GET['threadid']))
     <?php include 'ext-bootstrap.php' ?>
 
     <script type="text/javascript">
-
+ // tae
     </script>
 </head>
 <body id="body">
