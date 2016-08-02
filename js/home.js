@@ -432,7 +432,7 @@ function loadfeed()
 
 															"<tr>"+
 																"<td colspan='2' style='text-align:left;padding:1px; background:white;'>"+
-																	"<p style='word-wrap: break-word; margin-left:10px;'>"+post+"</p>"+
+																	"<p style='word-wrap: break-word; margin-left:10px;' class='postholder'>"+post+"</p>"+
 																	filediv+
 																	urldiv+
 																"</td>"+

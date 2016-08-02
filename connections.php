@@ -33,6 +33,8 @@ else
         <!-- Page Content -->
         <div id="page-content-wrapper" style="padding-right:0px; padding-left:0px;padding-top: 0px;margin-top:40px;">
 
+        <br><br>
+
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding:0px;">
                 <button class="btn btn-block btn-primary connectionstopbtn active" style="border:1px solid #337ab7;border-radius: 0px; outline: none;">Connection</button>
             </div>

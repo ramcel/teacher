@@ -192,7 +192,7 @@ if(isset($_POST['loadfeed']))
 			'fbid'          => $r['fid'],
 			'fdname'        => utf8_encode($r['fdname']),
 			'fdimg'         => $r['fdimg'],
-			'post'          => $r['post'],
+			'post'          => htmlentities($r['post']),
 			'datepost'      => date('F d, Y g:i A',strtotime($r['date_post'])),
 
 			'filerealname'  => $r['file_realname'],
@@ -252,7 +252,7 @@ if(isset($_POST['loadnewfeed']))
 			'fbid'          => $r1['fid'],
 			'fdname'        => utf8_encode($r1['fdname']),
 			'fdimg'         => $r1['fdimg'],
-			'post'          => $r1['post'],
+			'post'          => htmlentities($r1['post']),
 			'datepost'      => date('F d, Y g:i A',strtotime($r1['date_post'])),
 
 			'filerealname'  => $r1['file_realname'],
